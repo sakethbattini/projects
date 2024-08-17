@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctor registration page</title>
+    </head>
+    <body>
+        <header>
+            <p align="center"><img src="practo logo.jpg" height="50px" alt="deleted" weidth="50px"></p> 
+            <p align="center">
+                <a href="home.html">Home</a>|
+                <a href="doctors.html">Doctors</a>|
+                <a href="branches.html">Branches</a>|
+                <a href="dregister.html">Doctor Signup</a>|
+                <a href="dlogin.html">Doctor Signin</a>|
+                <a href="pregister.html">patient Signup</a>|
+                <a href="plogin.html">patient Signin</a>|
+                <a href="gallery.html">Gallery</a>
+            </p>    
+         
+
+        </header>
+        <hr>
+                <form name="dsform" action="servlet1" method="post">
+                
+                    <table align="center" cellpadding="5px" cellspacing="1px" bgcolor="silver">
+                        <caption>Register here</caption>
+                        <tr>
+                            <td><label for="id1">Full Name</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="id1" name="fname" required placeholder=" name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="id2">Mobile Number</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select  name="Number">
+                                    <option>+91 IND</option>
+                                    <option>+104 USA</option>
+                                    <option>+55 BRA</option>
+                                    <option>+1 CAN</option>
+                                </select>
+                                <input type="number" id="id2" required placeholder="mobile number">
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><label for="id3">Confirm Password</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" id="id3" name="pswrd" required placeholder="password">
+                            </td>
+                        </tr>
+                        <tr><td>
+                            <input id="id4" name="checkbox" type="checkbox">Receive relevant offers from practo
+                        </td></tr>
+                        <tr>
+                            <td align="center"><input type="submit" value="Doctor signup" required></td>
+                        </tr>
+                    </table>
+                </form>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+        <footer>
+            <h2 align="center">copyright@360digrii</h2>
+
+        </footer>
+    </body>
+</html>
