@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function nameValidation() {
+            let un1 = document.getElementById("un1").value
+            if (un1 == "") {
+                alert("enter name")
+                return false
+            }
+        }
+        function passwordvalidation() {
+            let up1 = document.getElementById("up1").value
+            if (up1 == "") {
+                alert("enter password")
+                return false
+            }
+        }
+
+
+    </script>
+    <link rel="stylesheet" href="loginForm.css">
+</head>
+
+<body>
+    <div class="container" >
+         <form action="dummys1" name="myLoginForm" onsubmit="return nameValidation(),passwordvalidation()">
+            
+            <table align="center">
+                <caption >Login Form</caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="un1">
+                                Name
+                            </label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><input class="box" type="text" id="un1" name="userName"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="up1">
+                                password
+                            </label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><input class="box" type="password" id="up1" name="userPassword"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="button" type="submit" value="login">
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+         </form>
+    </div>
+</body>
+
+</html>

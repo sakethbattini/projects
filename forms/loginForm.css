@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-331625-933054.jpg&fm=jpg");
+  background-size: cover;
+  height: 100vh;  
+  width:100vw;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    
+  }
+  .button{
+    background-color: skyblue;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: "Robotic";
+    border-width: 1px;
+  }
+  caption{
+    font-size: large;
+    font-family:sans-serif;
+    font-weight:500;
+    padding-top: 20px;
+   }
+ table{
+    height:30vh;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ span{
+    color:red;
+ }
+ .box{
+   width: 35vw;
+   height: 20px;
+ }
+ form{
+   margin: 10px;
+   
+ }
+ div{
+  
+   height: 100vh;
+   padding-top: 20px;
+ }
+

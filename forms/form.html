@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <script src="form.js">
+
+    </script>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form action="server1" name="myForm"
+                    onsubmit="return userName1(),userPswd(),confirmPassword(),number(),email(),gender(),country12()"
+                    onreset="return reSet()">
+                    <table align="center" style="padding:10px">
+                        <caption>SignUp Form</caption>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="un">Enter name</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="un" name="userName">
+                                    <span id="ns">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="up">Password</label>
+                                </td>
+                                <td>
+                                    <input type="password" id="up" name="userPassword">
+                                    <span id="ps">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="up">Confirm Password</label>
+                                </td>
+                                <td>
+                                    <input type="password" id="ucp" name="userConfirmPassword">
+                                    <span id="cps">*</span>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="unum">Phone number</label>
+                                </td>
+                                <td>
+                                    <input type="number" id="unum" name="userNumber">
+                                    <span id="nums">*</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="ue">Enter Email</label>
+                                </td>
+                                <td>
+                                    <input type="email" id="ue" name="userEmail">
+                                    <span id="ems">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="ugm">Gender</label>
+                                </td>
+                                <td>
+                                    <input type="radio" value="male" id="ugm" name="userGender">male
+                                    <input type="radio" value="feMale" id="ugf" name="userGender">female
+                                    <input type="radio" value="others" id="ugo" name="userGender">others
+                                    <span id="gs">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Country</label>
+                                </td>
+                                <td>
+                                    <select id="country" name="country">
+                                        <option value="select country">choose country</option>
+                                        <option value="India">India</option>
+                                        <option value="USA">USA</option>
+                                        <option value="UK">UK</option>
+                                        <option value="PAk">PAK</option>
+                                    </select>
+                                    <span id="cs"></span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input class="button" type="submit" value="Submit">
+                                </td>
+                                <td>
+                                    <input class="button" type="reset" value="Clear">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p> Already have an account? <a style="color:skyblue" href="loginForm.html">login</a> </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
